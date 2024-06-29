@@ -1,0 +1,37 @@
+using System;
+
+namespace Operations
+{
+    internal class Program
+    {
+        public static void Main(string[] args)
+        {
+            int age = 16;
+            /* age++ will increment or increase the age by one
+             or age = age +1;
+             or age =+ 1;
+             */
+            //To do a division it is advisable to use a double 
+            
+            age++;
+            Console.WriteLine(age);
+            
+            
+            // age++ will decrement or decrease the newAge by one
+            int newAge = 16;
+            newAge--;
+            Console.WriteLine(newAge);
+            
+            //This can also be done with strings  
+            
+            /*name-= "is";
+            This can not be done with the C# because it is not built into the language
+            and it is also difficult for the compiler to understand 
+            */
+            string name = "Peter";
+            name += "is programming";
+            Console.WriteLine(name);
+
+        }
+    }
+}
